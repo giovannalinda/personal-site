@@ -1,7 +1,9 @@
+import Sidebar from 'ui/components/Sidebar/Sidebar'
+
 export default function AboutMe() {
   return (
     <>
-      <h1>Sobre mim</h1>
+      <Sidebar />
     </>
   )
 }
