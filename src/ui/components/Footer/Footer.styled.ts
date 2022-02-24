@@ -15,8 +15,8 @@ export const Footer = styled.div`
   justify-content: center;
 
   p {
-    margin: 20px 0 0 0;
-    padding: 0 0 10px 0;
+    margin: -10px 0 0 20px;
+    padding: 30px 0 30px 0;
     animation: ${goBack} 1s infinite alternate;
   }
 `

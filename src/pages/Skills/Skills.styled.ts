@@ -15,18 +15,19 @@ export const Container = styled.div`
 `
 
 export const List = styled.ul`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  max-height: 650px;
+  overflow-y: scroll;
 
   li {
     width: 400px;
     height: 93px;
     background: ${theme.colors.gray[800]};
     border-radius: 5px;
-    transition: 0.4s;
     margin: 20px 0 0 0;
+
+    &::-webkit-scrollbar {
+      width: 0;
+    }
 
     &:hover {
       border: 1px solid ${theme.colors.purple[500]};
