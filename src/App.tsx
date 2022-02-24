@@ -1,6 +1,6 @@
-import AboutMe from 'pages/AboutMe/AboutMe'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { ABOUT_ME } from 'routes'
+import { ABOUT_ME, SKILLS } from 'routes'
+import { Skills, AboutMe } from 'pages'
 import { GlobalStyle } from 'ui'
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path={ABOUT_ME} element={<AboutMe />} />
+        <Route path={SKILLS} element={<Skills />} />
       </Routes>
       <GlobalStyle />
     </BrowserRouter>

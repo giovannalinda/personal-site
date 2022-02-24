@@ -4,7 +4,7 @@ import Sidebar from 'ui/components/Sidebar/Sidebar'
 
 import * as S from './AboutMe.styled'
 
-export default function AboutMe() {
+export function AboutMe() {
   return (
     <>
       <Sidebar />
