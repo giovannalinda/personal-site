@@ -31,7 +31,7 @@ const Menu = ({ children, onClose }: Props) => {
       <S.Container>
         <S.List>
           <li>
-            <Link to='/sobre-mim'>Sobre mim</Link>
+            <Link to='/'>Sobre mim</Link>
           </li>
 
           <li>
