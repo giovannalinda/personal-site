@@ -12,15 +12,16 @@ export function AboutMe() {
       <S.Container>
         <h1>Sobre mim</h1>
         <p>
-          Meu nome é Giovanna, nasci em São Paulo/SP, escolhi desenvolvimento
-          porque é incrível, a quantidade de coisas que podem ser criadas e o
-          impacto que pode ter na vida das pessoas me deixa animada.
+          Meu nome é Giovanna, tenho 18 anos e nasci em São Paulo/SP, escolhi
+          desenvolvimento porque é incrível, a quantidade de coisas que podem
+          ser criadas e o impacto que pode ter na vida das pessoas me deixa
+          animada.
           <br />
           <br />
-          Trabalho usando tecnologias como React e TypeScript e estou procurando
-          por novas experiências nas mesmas, busco sempre ser melhor do que no
-          dia anterior, ter um crescimento contínuo e criar produtos de
-          qualidade.
+          Atualmente escrevo artigos sobre carreira em tecnologia e trabalho
+          utilizando React e TypeScript. Algumas das minhas qualidades são que
+          busco sempre ser melhor do que no dia anterior, ter um crescimento
+          contínuo e criar produtos de qualidade.
           <br />
           <br />
           Algum projeto em mente? Me manda uma mensagem!
