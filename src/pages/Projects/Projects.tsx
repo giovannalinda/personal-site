@@ -1,5 +1,6 @@
-import { blizzard, markee, netflix, pokelister, weather } from 'assets'
+import { blizzard, disney, markee, netflix, pokelister, weather } from 'assets'
 import { Footer } from 'ui/components/Footer'
+
 import Sidebar from 'ui/components/Sidebar/Sidebar'
 
 import * as S from './Projects.styled'
@@ -20,13 +21,13 @@ export function Projects() {
         </a>
         <S.List>
           <li>
-            <h3>Netflix Web App</h3>
+            <h3>Disney+ Web App</h3>
             <p>
               Tecnologias utilizadas: ReactJs, TypeScript, Styled-components,
-              Jest, React Testing Library, JSON-Server, ESlint, Prettier, Husky
-              e Axios
+              JSON-Server, ESlint, Local Storage, Context API, Prettier, Husky e
+              Axios
             </p>
-            <img src={netflix} alt='project netflix' />
+            <img src={disney} alt='project disney+' />
           </li>
 
           <li>
@@ -37,6 +38,16 @@ export function Projects() {
               Axios
             </p>
             <img src={pokelister} alt='project pokemon' />
+          </li>
+
+          <li>
+            <h3>Netflix Web App</h3>
+            <p>
+              Tecnologias utilizadas: ReactJs, TypeScript, Styled-components,
+              Jest, React Testing Library, JSON-Server, ESlint, Prettier, Husky
+              e Axios
+            </p>
+            <img src={netflix} alt='project netflix' />
           </li>
 
           <li>
