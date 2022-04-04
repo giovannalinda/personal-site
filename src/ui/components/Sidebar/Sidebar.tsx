@@ -14,7 +14,7 @@ export default function Sidebar() {
       <S.Navbar>
         <S.ShowSidebar>
           <button onClick={() => setIsOpen(true)}>
-            <FaIcons.FaBars />
+            <FaIcons.FaBars size={20} />
           </button>
           {isOpen ? <Menu onClose={() => setIsOpen(false)} /> : null}
         </S.ShowSidebar>

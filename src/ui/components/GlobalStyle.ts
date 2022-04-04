@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: ${theme.colors.purple[800]};
+    background: ${theme.colors.gray[800]};
     font-family: ${theme.font.family};
     overflow-x: hidden;
     color: ${theme.colors.white};
@@ -29,7 +29,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   &::selection {
-    color: ${theme.colors.purple[800]};
-    background: ${theme.colors.purple[500]};
+    color: ${theme.colors.black};
+    background: ${theme.colors.white};
   }
 `

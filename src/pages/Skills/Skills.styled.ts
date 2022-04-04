@@ -21,17 +21,9 @@ export const List = styled.ul`
   li {
     width: 400px;
     height: 93px;
-    background: ${theme.colors.gray[800]};
+    background: ${theme.colors.black};
     border-radius: 5px;
     margin: 20px 0 0 0;
-
-    &::-webkit-scrollbar {
-      width: 0;
-    }
-
-    &:hover {
-      border: 1px solid ${theme.colors.purple[500]};
-    }
 
     h3 {
       padding: 35px 0 0 150px;
