@@ -15,7 +15,7 @@ export const Container = styled.div`
   }
 
   a {
-    color: ${theme.colors.purple[500]};
+    color: ${theme.colors.white};
     padding: 20px;
     text-decoration: underline;
   }

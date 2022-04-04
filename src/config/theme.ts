@@ -1,13 +1,12 @@
 export const theme = {
   colors: {
     white: '#FFFFFF',
-    gray: {
-      800: '#0C0C0C',
+    black: '#000000',
+    neutral: {
+      50: '#FAFAFA',
     },
-    purple: {
-      500: '#6F2BFF',
-      800: '#14111A',
-      900: '#16121F',
+    gray: {
+      800: '#0C0E10',
     },
   },
   font: {

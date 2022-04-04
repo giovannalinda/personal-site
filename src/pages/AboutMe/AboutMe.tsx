@@ -1,91 +1,54 @@
-import { github, gmail, instagram, linkedin, twitter } from 'assets'
-import { Footer } from 'ui/components/Footer'
+import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
+
+import { BsThreeDots } from 'react-icons/bs'
+
 import Sidebar from 'ui/components/Sidebar/Sidebar'
+import { Footer } from 'ui/components/Footer'
+import { profile, curriculo } from 'assets'
 
 import * as S from './AboutMe.styled'
 
 export function AboutMe() {
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false)
+    }, 3000)
+  }, [])
+
   return (
     <>
-      <Sidebar />
+      {!loading && (
+        <>
+          <Sidebar />
 
-      <S.Container>
-        <h1>Sobre mim</h1>
-        <p>
-          Meu nome é Giovanna, tenho 18 anos e nasci em São Paulo/SP, escolhi
-          desenvolvimento porque é incrível, a quantidade de coisas que podem
-          ser criadas e o impacto que pode ter na vida das pessoas me deixa
-          animada.
-          <br />
-          <br />
-          Atualmente escrevo artigos sobre carreira em tecnologia e trabalho
-          utilizando React e TypeScript. Algumas das minhas qualidades são que
-          busco sempre ser melhor do que no dia anterior, ter um crescimento
-          contínuo e criar produtos de qualidade.
-          <br />
-          <br />
-          Algum projeto em mente? Me manda uma mensagem!
-        </p>
+          <S.Container>
+            <img src={profile} alt='profile' />
+            <span>Oi, eu sou a Giovanna 💜️</span>
+            <h2>
+              Desenvolvendo produtos digitais de qualidade através de códigos.
+              ✨
+            </h2>
+            <p>
+              uma Desenvolvedora Front End com brilho no olho, que se importa
+              com cada detalhe ao construir interfaces prezando pela experiência
+              para que impacte positivamente na vida das pessoas.
+            </p>
+            <Link to={curriculo} target='_blank'>
+              Currículo
+            </Link>
+          </S.Container>
+          <Footer />
+        </>
+      )}
 
-        <h2>Contato</h2>
-        <p>
-          Você pode entrar em contato comigo através de qualquer uma das minhas
-          redes sociais.
-        </p>
-
-        <S.List>
-          <li>
-            <a
-              href='https://github.com/giovannalinda'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <img src={github} alt='github logo' />
-            </a>
-          </li>
-
-          <li>
-            <a
-              href='https://www.instagram.com/_gripada/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <img src={instagram} alt='instagram logo' />
-            </a>
-          </li>
-
-          <li>
-            <a
-              href='mailto:eugiovannasouza@gmail.com'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <img src={gmail} alt='gmail logo' />
-            </a>
-          </li>
-
-          <li>
-            <a
-              href='https://www.linkedin.com/in/giovannalinda/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <img src={linkedin} alt='linkedin logo' />
-            </a>
-          </li>
-
-          <li>
-            <a
-              href='https://twitter.com/gripada_'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <img src={twitter} alt='twitter logo' />
-            </a>
-          </li>
-        </S.List>
-      </S.Container>
-      <Footer />
+      {loading && (
+        <S.Loader>
+          <BsThreeDots size={40} />
+        </S.Loader>
+      )}
     </>
   )
 }
