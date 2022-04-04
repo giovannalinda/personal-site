@@ -10,10 +10,10 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: ${theme.colors.gray[800]};
+    background: ${({ theme }) => theme.background};
     font-family: ${theme.font.family};
     overflow-x: hidden;
-    color: ${theme.colors.white};
+    color: ${({ theme }) => theme.textColor};
   }
 
   button {
@@ -29,7 +29,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   &::selection {
-    color: ${theme.colors.black};
-    background: ${theme.colors.white};
+    color: ${({ theme }) => theme.background};
+    background:  ${({ theme }) => theme.textColor};
   }
 `

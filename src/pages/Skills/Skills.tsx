@@ -11,7 +11,7 @@ export function Skills() {
       <Sidebar />
 
       <S.Container>
-        <h1>Tecnologias</h1>
+        <h1>Tecnologias 💻</h1>
         <S.List>
           <li>
             <h3>HTML</h3>

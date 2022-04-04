@@ -38,9 +38,9 @@ export const Container = styled.div`
 
   a {
     padding: 15px 80px 15px 80px;
-    background: ${theme.colors.white};
+    background: ${({ theme }) => theme.button};
     border-radius: 5px;
-    color: ${theme.colors.black};
+    color: ${({ theme }) => theme.background};
     transition: 300ms;
 
     &:hover {

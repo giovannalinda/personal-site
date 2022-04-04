@@ -1,5 +1,4 @@
 import styled from 'styled-components/macro'
-import { theme } from 'config'
 
 export const Navbar = styled.div`
   height: 40px;
@@ -17,7 +16,7 @@ export const ShowSidebar = styled.div`
     top: 30px;
     left: 40px;
     background: none;
-    color: ${theme.colors.white};
+    color: ${({ theme }) => theme.icon};
     border: 0;
   }
 `

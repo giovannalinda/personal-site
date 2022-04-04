@@ -6,11 +6,11 @@ export const Footer = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: ${theme.colors.white};
+  background: ${({ theme }) => theme.footer};
   width: 100%;
   height: 255px;
   margin: 90px 0 0 0;
-  color: ${theme.colors.gray[800]};
+  color: ${({ theme }) => theme.textFooter};
 
   p {
     margin: 5px 0 5px 0;

@@ -21,7 +21,7 @@ export const List = styled.ul`
   li {
     width: 400px;
     height: 90px;
-    background: ${theme.colors.black};
+    background: ${({ theme }) => theme.list};
     border-radius: 5px;
     margin: 20px 0 0 0;
 
