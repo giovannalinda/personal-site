@@ -6,6 +6,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 50px 0 0 0;
 
   h1 {
     margin: 30px 0 0 0;
@@ -16,11 +17,10 @@ export const Container = styled.div`
 
 export const List = styled.ul`
   max-height: 650px;
-  overflow-y: scroll;
 
   li {
     width: 400px;
-    height: 93px;
+    height: 90px;
     background: ${theme.colors.black};
     border-radius: 5px;
     margin: 20px 0 0 0;

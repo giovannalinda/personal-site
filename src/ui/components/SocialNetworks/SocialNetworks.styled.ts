@@ -6,7 +6,7 @@ export const IconsList = styled.ul`
   justify-content: left;
 
   li {
-    padding: 0 0 0 40px;
+    padding: 0 0 0 30px;
     transition: 300ms;
     margin: 60px 0 0 0;
 

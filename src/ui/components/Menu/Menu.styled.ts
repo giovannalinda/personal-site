@@ -8,7 +8,6 @@ export const Aside = styled.aside`
   top: 0;
   left: 0;
   background: ${theme.colors.white};
-  z-index: 1;
   box-shadow: 25rem 0 0 150rem rgba(0, 0, 0, 0.5);
 
   button {
@@ -23,8 +22,8 @@ export const List = styled.ul`
 
   li {
     padding-bottom: 17px;
-    transition: 0.8s;
-    opacity: 86%;
+    transition: 0.5s;
+    opacity: 80%;
     text-align: left;
     font-size: 48px;
     font-weight: bold;
@@ -34,7 +33,7 @@ export const List = styled.ul`
       transition: 0.5s;
 
       :hover {
-        padding: 6px;
+        padding: 10px;
         opacity: 80%;
         border-radius: 4px;
       }

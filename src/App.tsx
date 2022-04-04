@@ -1,4 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
+import 'swiper/css'
+import 'swiper/css/pagination'
+import 'swiper/css/navigation'
+
 import { ABOUT_ME, PROJECTS, SKILLS, ABOUTWHOIAM } from 'routes'
 import { Skills, AboutMe, Projects, Error, AboutWhoIAm } from 'pages'
 import { GlobalStyle } from 'ui'
