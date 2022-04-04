@@ -11,7 +11,7 @@ export const Aside = styled.aside`
   box-shadow: 25rem 0 0 150rem rgba(0, 0, 0, 0.5);
 
   button {
-    color: ${theme.colors.gray[800]};
+    color: ${theme.colors.black};
   }
 `
 
