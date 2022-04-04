@@ -11,7 +11,7 @@ export function Projects() {
       <Sidebar />
 
       <S.Container>
-        <h1>Projetos</h1>
+        <h1>Projetos 🚀</h1>
         <a
           href='https://github.com/giovannalinda'
           target='_blank'

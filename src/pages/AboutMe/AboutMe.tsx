@@ -29,6 +29,7 @@ export function AboutMe() {
             <span>Oi, eu sou a Giovanna 💜️</span>
             <h2>
               Desenvolvendo produtos digitais de qualidade através de códigos.
+              ✨
             </h2>
             <p>
               uma Desenvolvedora Front End com brilho no olho, que se importa

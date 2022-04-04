@@ -8,7 +8,7 @@ export function AboutWhoIAm() {
     <>
       <Sidebar />
       <S.Container>
-        <h2>Quem sou ✨</h2>
+        <h2>Quem sou 🔥</h2>
         <p>
           Meu nome é Giovanna, tenho 18 anos e nasci em São Paulo/SP, escolhi
           desenvolvimento porque é incrível, a quantidade de coisas que podem
