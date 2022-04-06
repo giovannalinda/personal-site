@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { theme } from 'config'
 
 export const Container = styled.div`
   display: flex;
@@ -7,6 +6,8 @@ export const Container = styled.div`
   justify-content: center;
   flex-direction: column;
   margin: 50vh 0 0 0;
+  text-align: center;
+  padding: 0 30px;
 
   h2 {
     margin: -70px 0 20px 0;
@@ -18,9 +19,9 @@ export const Container = styled.div`
 
   a {
     padding: 15px 80px 15px 80px;
-    background: ${theme.colors.white};
+    background: ${({ theme }) => theme.button};
     border-radius: 5px;
-    color: ${theme.colors.black};
+    color: ${({ theme }) => theme.background};
     transition: 300ms;
 
     &:hover {

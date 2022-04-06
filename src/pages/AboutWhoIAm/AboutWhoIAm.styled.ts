@@ -22,5 +22,10 @@ export const Container = styled.div`
     opacity: 85%;
     padding: 0 40px 70px 50px;
     max-width: 600px;
+
+    @media (max-width: 531px) {
+      font-size: 15px;
+      padding: 0 18px 0 18px;
+    }
   }
 `

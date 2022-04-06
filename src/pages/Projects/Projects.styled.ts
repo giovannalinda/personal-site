@@ -12,6 +12,10 @@ export const Container = styled.div`
     margin: 30px 0 0 0;
     font-size: 64px;
     font-weight: ${theme.font.weigths.bold};
+
+    @media (max-width: 531px) {
+      font-size: 40px;
+    }
   }
 
   a {
@@ -31,7 +35,6 @@ export const List = styled.ul`
   li {
     padding: 30px;
     border-radius: 5px;
-    margin: auto;
     max-width: 840px;
     height: 300px;
 

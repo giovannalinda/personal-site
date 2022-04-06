@@ -6,9 +6,9 @@ export const IconsList = styled.ul`
   justify-content: left;
 
   li {
-    padding: 0 0 0 30px;
+    padding: 0 0 0 10px;
     transition: 300ms;
-    margin: 60px 0 0 0;
+    margin: 60px 10px 0 0;
 
     &:hover {
       transform: translateY(-5px) scale(1.1);

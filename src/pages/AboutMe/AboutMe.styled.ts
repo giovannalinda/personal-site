@@ -25,15 +25,24 @@ export const Container = styled.div`
     max-width: 800px;
     font-size: 48px;
     font-weight: ${theme.font.weigths.bold};
-    padding: 0 40px 0 40px;
+    padding: 0 30px 0 30px;
     text-align: center;
+
+    @media (max-width: 531px) {
+      font-size: 28px;
+      padding: 0 20px 0 20px;
+    }
   }
 
   p {
     text-align: center;
-    opacity: 85%;
-    padding: 0 40px 50px 50px;
+    opacity: 60%;
+    padding: 0 20px 50px 20px;
     max-width: 700px;
+
+    @media (max-width: 531px) {
+      font-size: 14px;
+    }
   }
 
   a {

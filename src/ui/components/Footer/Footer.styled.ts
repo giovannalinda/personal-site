@@ -13,7 +13,9 @@ export const Footer = styled.div`
   color: ${({ theme }) => theme.textFooter};
 
   p {
-    margin: 5px 0 5px 0;
+    margin: 10px 0 10px 0;
+    padding: 0 20px;
+    text-align: center;
   }
 
   a {
