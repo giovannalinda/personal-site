@@ -31,7 +31,9 @@ const Menu = ({ children, onClose }: Props) => {
           <Link to='/habilidades'>Techs</Link>
         </li>
       </S.List>
-      <SocialNetworks />
+      <S.Networks>
+        <SocialNetworks />
+      </S.Networks>
       {children}
     </S.Aside>
   )

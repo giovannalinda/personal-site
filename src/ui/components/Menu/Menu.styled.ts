@@ -56,3 +56,11 @@ export const IconsList = styled.ul`
     }
   }
 `
+
+export const Networks = styled.div`
+  margin: 0 0 0 50px;
+
+  li {
+    padding: 0 50px 0 0;
+  }
+`
