@@ -2,8 +2,9 @@ import { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import { FiX } from 'react-icons/fi'
 
-import * as S from './Menu.styled'
 import { SocialNetworks } from '../SocialNetworks'
+
+import * as S from './Menu.styled'
 
 type Props = {
   children?: ReactNode

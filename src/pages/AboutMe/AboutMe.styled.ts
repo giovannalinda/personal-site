@@ -17,7 +17,8 @@ export const Container = styled.div`
   flex-direction: column;
 
   img {
-    margin: 80px 0 30px 0;
+    margin: 70px 0 30px 0;
+    object-fit: cover;
   }
 
   h2 {
@@ -27,8 +28,9 @@ export const Container = styled.div`
     font-weight: ${theme.font.weigths.bold};
     padding: 0 30px 0 30px;
     text-align: center;
+    transition: 300ms;
 
-    @media (max-width: 531px) {
+    @media (max-width: 500px) {
       font-size: 28px;
       padding: 0 20px 0 20px;
     }
@@ -38,7 +40,8 @@ export const Container = styled.div`
     text-align: center;
     opacity: 60%;
     padding: 0 20px 50px 20px;
-    max-width: 700px;
+    max-width: 600px;
+    transition: 300ms;
 
     @media (max-width: 531px) {
       font-size: 14px;
